@@ -1,0 +1,6 @@
+if(cntt<n-1)
+ {
+ printf("\n deadlock ");
+ }
+      getch();
+ }
