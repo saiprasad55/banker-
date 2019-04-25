@@ -1,0 +1,22 @@
+while(k<15)
+ {
+ for(i=0;i<n;i++)
+ {  cnt=0;
+ for(j=0;j<r;j++)
+ {
+  if(p[i]==1) break;
+  if(need[i][j]<=avail[j])
+  {
+  cnt++;
+  }
+  if(cnt==r)
+  {
+  for(j=0;j<r;j++)
+  {
+  avail[j]+=alloc[i][j];
+  }
+  printf("p%d\t",i+1);  p[i]=1;     cntt++;
+  }
+ }
+ } k++;
+ }
